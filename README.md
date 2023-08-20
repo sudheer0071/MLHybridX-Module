@@ -156,3 +156,20 @@ R2 Score = 0.3787468740719061
 
 This project is licensed under the MIT License - see the <u>[LISCENCE</u>](Liscence.txt) file for details.
 
+## 🔗 Links
+
+Documentation : [
+MLHybridX · TestPyPI
+](https://test.pypi.org/project/MLHybridX/1.5.0/)
+
+Github Repo: [MLHybridX](https://github.com/sudheer0071/MLHybridX)
+
+
+## Contributor
+![](https://skillicons.dev/icons?i=github)
+
+[Deepak Yadav](https://github.com/nero58) 
+
+
+## Languages used 
+![My Skills](https://skillicons.dev/icons?i=py,git)
