@@ -1,1 +1,1 @@
-from hybrid.check import EasyRegressor
+from .check import EasyRegressor

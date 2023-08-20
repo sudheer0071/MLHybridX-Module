@@ -14,6 +14,12 @@ we will more algorithms soon.
 
 You can simply Install this Module just like another Module
 
+Firstly, make sure you have installed these libraries : [ numpy, pandas, scikit-learn, seaborn ]
+
+if you don't have these models no need to worry you can simply install it by :: pip install <<module name>Module name>
+
+
+
 ```bash
   pip install MLHybridX
 ```
@@ -25,6 +31,147 @@ Here we go !. Now you can use it in your systems.
 import hybrid
 from hybrid import EasyRegressor
 
+"""
+If you have no idea about what can you do with dataset
+and how can you apply train, models etc for that you 
+can pass default parameter inside EasyRegressor on 
+running that you will get the whole idea about any model.
+"""
+# just run this and you get the whole idea about all processes
+EasyRegressor('default')
+# this takes random dataset from seaborn and tells about every process
+#                              output
+
+"""
+///////////////////////////////////////// ●▬▬▬▬◤ Dataset ◢▬▬▬▬● ///////////////////////////////////////////
+
+
+            Date  Extent
+0     1980-01-01  14.200
+1     1980-01-03  14.302
+2     1980-01-05  14.414
+3     1980-01-07  14.518
+4     1980-01-09  14.594
+...          ...     ...
+13170 2019-12-27  12.721
+13171 2019-12-28  12.712
+13172 2019-12-29  12.780
+13173 2019-12-30  12.858
+13174 2019-12-31  12.889
+
+[13175 rows x 2 columns]
+
+
+
+
+
+
+
+
+//////////////////////////////// ●▬▬▬▬◤ split data ◢▬▬▬▬● //////////////////////////////////////
+
+
+X: [[3.1553280e+17]
+ [3.1570560e+17]
+ [3.1587840e+17]
+ ...
+ [1.5775776e+18]
+ [1.5776640e+18]
+ [1.5777504e+18]]
+
+
+ y: [14.2   14.302 14.414 ... 12.78  12.858 12.889]
+
+
+
+
+
+
+
+
+
+//////////////////////////////////// ●▬▬▬▬◤ trained data ◢▬▬▬▬● ///////////////////////////////
+
+
+X_train: [[5.588352e+17]
+ [4.779648e+17]
+ [7.509024e+17]
+ ...
+ [7.919424e+17]
+ [6.342624e+17]
+ [6.913728e+17]]
+
+
+ y_train: [ 7.223 15.447  8.939 ... 15.259 15.277 11.725]
+
+
+X_test: [[1.5468192e+18]
+ [7.9747200e+17]
+ [7.4908800e+17]
+ ...
+ [1.5539040e+18]
+ [4.7243520e+17]
+ [8.6624640e+17]]
+
+
+ y_test: [13.282 14.686  6.9   ... 14.096 13.202 11.968]
+
+
+
+
+
+///////////////////////////////////////// ●▬▬▬▬◤ fitting into Liner Regression Models ◢▬▬▬▬● ////////////////////////////////////////
+
+
+
+////////////////////////////////////////////////// ●▬▬▬▬◤ By ols ◢▬▬▬▬● /////////////////////////////////////////////////
+
+m = [-1.92604083e-18]
+b = [13.19621591] 
+ Predicted value = [[10.21697898]
+ [11.66025228]
+ [11.75344184]
+ ...
+ [10.20333336]
+ [12.28628643]
+ [11.52778998]]
+
+
+
+//////////////////////////////////////////// ●▬▬▬▬◤ By Multiple Regression ◢▬▬▬▬● ///////////////////////////////////////
+
+intercept_ = 13.196215914838561
+coef_ = [-1.92604083e-18]
+ Predicted value = [[10.21697898]
+ [11.66025228]
+ [11.75344184]
+ ...
+ [10.20333336]
+ [12.28628643]
+ [11.52778998]]
+
+
+
+///////////////////////////////////// ●▬▬▬▬◤ By Gradient Descent Regression ◢▬▬▬▬● //////////////////////////////////////
+
+
+
+
+ For lr = 0.001 and epochs = 50
+
+
+intercept = 11.17154032515112
+coefficient = [-0.57468763]
+ Predicted value = [[10.21697898]
+ [11.66025228]
+ [11.75344184]
+ ...
+ [10.20333336]
+ [12.28628643]
+ [11.52778998]]
+
+
+"""
 # making an object
 # new = Hybrid('<name of your dataset in csv formate>')
 # suppose we have a dataset of wine.csv
