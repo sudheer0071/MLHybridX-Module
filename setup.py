@@ -17,11 +17,8 @@ setup(
     install_requires=['sklearn', 'pandas', 'numpy'],
     keywords=['train', 'split', 'df', 'predict'],
     classifiers=[
-        "Development Status :: 1 - Planning",
-        "Intended Audience :: Developers",
+        "Development Status :: 1 - Planning", 
         "Programming Language :: Python :: 3",
-        "Operating System :: Unix",
-        "Operating System :: MacOS :: MacOS X",
-        "Operating System :: Microsoft :: Windows",
+        "Operating System :: OS Independent",
     ]
 )
