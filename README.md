@@ -168,7 +168,7 @@ Github Repo: [MLHybridX](https://github.com/sudheer0071/MLHybridX)
 ## Contributor
 ![](https://skillicons.dev/icons?i=github)
 
-[Deepak Yadav](https://github.com/nero58) 
+[Deepak Yadav](https://github.com/nero58)  and [Sudheer](https://github.com/sudheer0071)
 
 
 ## Languages used 
