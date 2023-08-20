@@ -15,7 +15,7 @@ we will more algorithms soon.
 You can simply Install this Module just like another Module
 
 ```bash
-  pip install hybrid
+  pip install MLHybridX
 ```
 Here we go !. Now you can use it in your systems.
 
