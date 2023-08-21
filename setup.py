@@ -3,7 +3,7 @@ from setuptools import setup, find_packages
 with open('README.md', 'r',encoding='utf-8') as f:
     LONG_DESCRIPTION = f.read()
 
-VERSION = '2.5.0'
+VERSION = '2.7.0'
 DESCRIPTION = 'ML module'
 
 setup(
@@ -22,3 +22,7 @@ setup(
         "Operating System :: OS Independent",
     ]
 )
+
+# ///////////////// TOKEN /////////////////////////////
+
+# "pypi-AgENdGVzdC5weXBpLm9yZwIkMDA3OWYzNDctNTVhNS00MWFjLTg4MjAtMjMyZjYyOGQ1ZTkzAAIRWzEsWyJtbGh5YnJpZHgiXV0AAixbMixbIjNjMmIxNWFlLWRhZmYtNGM3Ny05YTMyLWFhNDc2N2QxMWVmNiJdXQAABiAgaTP3DlblEPDgpKLErsaeCtxB5ZN1RCikKSjZ3VO-Iw"

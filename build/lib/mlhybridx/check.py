@@ -22,6 +22,7 @@ class EasyRegressor:
         if file_name == 'default':
             print("inside default")
             self.default()
+            return None
             
             
         self.file_name = file_name 
@@ -112,7 +113,6 @@ class EasyRegressor:
         print(f" Predicted value = {pred}")
 
         return None
-        
 
     def model_ols(self):
         self.df()
