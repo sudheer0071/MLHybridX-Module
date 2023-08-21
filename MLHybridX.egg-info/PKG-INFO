@@ -1,11 +1,11 @@
 Metadata-Version: 2.1
-Name: MLHybridX
-Version: 2.1.0
+Name: mlhybridx
+Version: 2.3.0
 Summary: ML module
 Author: Deepak and Sudheer
 Keywords: train,split,df,predict
 Classifier: Development Status :: 1 - Planning
-Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
 Classifier: Operating System :: OS Independent
 Description-Content-Type: text/markdown
 

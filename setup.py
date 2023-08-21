@@ -3,11 +3,11 @@ from setuptools import setup, find_packages
 with open('README.md', 'r',encoding='utf-8') as f:
     LONG_DESCRIPTION = f.read()
 
-VERSION = '2.1.0'
+VERSION = '2.3.0'
 DESCRIPTION = 'ML module'
 
 setup(
-    name="MLHybridX",
+    name="mlhybridx",
     version=VERSION,
     author="Deepak and Sudheer",
     description=DESCRIPTION,
@@ -18,7 +18,7 @@ setup(
     keywords=['train', 'split', 'df', 'predict'],
     classifiers=[
         "Development Status :: 1 - Planning", 
-        "Programming Language :: Python :: 3",
+        "Programming Language :: Python :: 3.6",
         "Operating System :: OS Independent",
     ]
 )
