@@ -49,7 +49,7 @@ class EasyRegressor:
             sys.exit("File not found")
         # print(df)
         
-    def splitt(self, target=""):
+    def split(self, target=""):
         self.target = target
         self.df()
         self.x, self.y = split_data(self.data, self.target)  
