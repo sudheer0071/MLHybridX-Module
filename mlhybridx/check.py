@@ -48,7 +48,7 @@ class EasyRegressor:
             print('file not found') 
             sys.exit("File not found")
         # print(df)
-        
+         
     def split(self, target=""):
         self.target = target
         self.df()
