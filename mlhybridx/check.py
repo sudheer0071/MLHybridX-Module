@@ -169,7 +169,7 @@ class EasyRegressor:
             return self.typer(output)
 
         if model == 'gdr':
-            m,b = GDR(x_train, y_train, lr=0.001, epochs=50)
+            m,b = GDR(x_train,  y_train, lr=0.001, epochs=50)
             if val is not None:
                  pred = predict_gdr(x_test, m, b)
                  output = f"Predicted values = {pred}"
