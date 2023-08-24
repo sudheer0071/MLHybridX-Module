@@ -195,8 +195,6 @@ class EasyRegressor:
             return True
         if model == "mlr":
             m,b = multiple(x_train,y_train)
-            # print(m)
-            # print(b)
             y_pred = perdict_multiple(x_test,m,b)
             return SE(y_test, y_pred, score)
             return True
