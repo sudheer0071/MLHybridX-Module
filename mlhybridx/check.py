@@ -195,8 +195,7 @@ class EasyRegressor:
         if model == "mlr":
             m,b = multiple(x_train,y_train)
             y_pred = perdict_multiple(x_test,m,b)
-            return SE(y_test, y_pred, score)
-            return True
+            return SE(y_test, y_pred, score) 
         if model == "gdr":
             m,b = GDR(x_train,y_train,lr=0.01,epochs= 50) 
             y_pred = predict_gdr(x_test,m,b)
