@@ -199,5 +199,4 @@ class EasyRegressor:
         if model == "gdr":
             m,b = GDR(x_train,y_train,lr=0.01,epochs= 50) 
             y_pred = predict_gdr(x_test,m,b)
-            return SE(y_test, y_pred, score)
-            return None
+            return SE(y_test, y_pred, score) 
