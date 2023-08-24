@@ -188,11 +188,8 @@ class EasyRegressor:
         x, y  = split_data(self.data, self.target)
         x_train, x_test, y_train, y_test = train_data(x, y, self.test_size) 
         if model == "ols":
-            m,b = ols(x_train,y_train)
-            # print(m)
-            # print(b)
-            n = predict_olr(x_test,m,b)
-            # print(n)
+            m,b = ols(x_train,y_train) 
+            n = predict_olr(x_test,m,b) 
             print(n.shape)
             return SE(y_test, n, score)
             return True
