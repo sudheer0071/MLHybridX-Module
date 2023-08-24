@@ -14,8 +14,7 @@ def multiple_data():
         dowjones = sns.load_dataset('dowjones')
         seaice = sns.load_dataset('seaice')
         datasets = [flight, anscombe, car_crash, dowjones, seaice]
-        df = random.choice(datasets)
-        data = pd.DataFrame(df)
+        df = random.choice(datasets) 
         return data
 
 
