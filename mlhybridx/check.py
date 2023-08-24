@@ -191,8 +191,7 @@ class EasyRegressor:
             m,b = ols(x_train,y_train) 
             n = predict_olr(x_test,m,b) 
             print(n.shape)
-            return SE(y_test, n, score)
-            return True
+            return SE(y_test, n, score) 
         if model == "mlr":
             m,b = multiple(x_train,y_train)
             y_pred = perdict_multiple(x_test,m,b)
