@@ -5,7 +5,7 @@ This project focuses on the implementation of fundamental machine learning algor
 
 ### Algorithms Used
 #### Linear regression 
-is a basic algorithm for predicting a continuous target variable based on one or more input features. It involves fitting a linear relationship between the inputs and the target variable.
+It is a basic algorithm for predicting a continuous target variable based on one or more input features. It involves fitting a linear relationship between the inputs and the target variable.
 
 we will more algorithms soon.
 
