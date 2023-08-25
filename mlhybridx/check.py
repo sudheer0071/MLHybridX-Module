@@ -69,7 +69,7 @@ class EasyRegressor:
           
     def default(self):
         bydefault()
-        
+        return ''
 
     def model_ols(self):
         self.df()
