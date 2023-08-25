@@ -45,7 +45,7 @@ def By_default():
         x_train,  x_test,  y_train,  y_test = train_data( x,  y , size)
         m,b = ols( x_train,  y_train)
         print(f"m = {m}\nb = {b} ")
-        pred = predict_gdr(x_test,m,b)
+        pred = predict_olr(x_test,m,b)
         print(f" Predicted value = {pred}")
 
         
