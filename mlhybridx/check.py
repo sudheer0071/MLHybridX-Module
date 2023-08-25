@@ -13,7 +13,7 @@
 
 import sys
 import pandas as pd 
-from .hub import check_file,ols,multiple,GDR,SE,split_data,train_data,predict_gdr,predict_olr,perdict_multiple,multiple_data
+from .hub import check_file,ols,multiple,GDR,SE,split_data,train_data,predict_gdr,predict_olr,perdict_multiple, bydefault
 import time
 
 class EasyRegressor:
@@ -67,7 +67,10 @@ class EasyRegressor:
         # return self.type(output, 0.000000001)
         return None
           
-         
+    def default(self):
+        bydefault()
+        
+
     def model_ols(self):
         self.df()
         x, y  = split_data(self.data, self.target)
