@@ -33,7 +33,7 @@ from hybrid import EasyRegressor
 
 """
 If you have no idea about what can you do with dataset
-and how can you apply train, models etc for that you 
+and how can you apply train_test_split, fitting in models etc for that you 
 can pass default parameter inside EasyRegressor on 
 running that you will get the whole idea about any model.
 """
