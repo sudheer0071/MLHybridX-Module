@@ -311,6 +311,9 @@ MLHybridX · TestPyPI
 
 Github Repo: [MLHybridX](https://github.com/sudheer0071/MLHybridX)
 
+### Now terminal version is also available !! 
+#### check it out
+Github Repo: [mlhybridx-terminal-version](https://github.com/sudheer0071/mlhybridx-terminal-version/tree/main)
 
 ## Contributor
 ![](https://skillicons.dev/icons?i=github)
