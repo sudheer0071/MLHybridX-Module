@@ -53,7 +53,7 @@ def By_default():
         x_train,  x_test,  y_train,  y_test = train_data( x,  y , size)
         intercept_, coef_ = multiple( x_train,  y_train)
         print(f"intercept_ = {intercept_}\ncoef_ = {coef_}")
-        pred = predict_gdr(x_test,m,b)
+        pred = perdict_multiple(x_test,m,b)
         print(f" Predicted value = {pred}")
 
 
