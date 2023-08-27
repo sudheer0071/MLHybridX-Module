@@ -1,15 +1,3 @@
-# import sys
-# import pandas as pd 
-# from check_ext.check_extention import check_file
-# from algos.algorithm import ols, multiple, GDR
-# from scores.scores import SE
-# from split.split import split_data
-# from predict.predict import predict_olr, perdict_multiple, predict_gdr
-# # from default import multiple_data
-# from train.train import train_data
-# # from main_class import Hybrid
-# from default import By_default
-# import time
 
 import sys
 import pandas as pd 
