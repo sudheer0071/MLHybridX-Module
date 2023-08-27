@@ -11,8 +11,7 @@ def datasets():
         anscombe = sns.load_dataset('anscombe').replace({'I':1,'II':2,'III':3,'IV':4})
         car_crash = sns.load_dataset('car_crashes').drop(['abbrev'], axis=1)
         dowjones = sns.load_dataset('dowjones')
-        seaice = sns.load_dataset('seaice')
-        # datasets = [flight, anscombe, car_crash, dowjones, seaice]
+        seaice = sns.load_dataset('seaice') 
         dataset = {'Flight': flight, 'Anscombe':anscombe, 'Car Crash':car_crash,'Dowjones': dowjones, 'seaice': seaice,}
 
         name, data = random.choice(list(dataset.items()))
