@@ -307,7 +307,7 @@ This project is licensed under the MIT License - see the <u>[LISCENCE</u>](Lisce
 
 Documentation : [
 MLHybridX · TestPyPI
-](https://test.pypi.org/project/MLHybridX/1.5.0/)
+](https://test.pypi.org/project/mlhybridx/)
 
 Github Repo: [MLHybridX](https://github.com/sudheer0071/MLHybridX)
 
