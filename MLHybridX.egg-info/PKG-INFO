@@ -1,6 +1,6 @@
 Metadata-Version: 2.1
 Name: mlhybridx
-Version: 2.8.0
+Version: 2.9.0
 Summary: ML module
 Author: Deepak and Sudheer
 Keywords: train,split,df,predict
@@ -16,7 +16,7 @@ This project focuses on the implementation of fundamental machine learning algor
 
 ### Algorithms Used
 #### Linear regression 
-is a basic algorithm for predicting a continuous target variable based on one or more input features. It involves fitting a linear relationship between the inputs and the target variable.
+It is a basic algorithm for predicting a continuous target variable based on one or more input features. It involves fitting a linear relationship between the inputs and the target variable.
 
 we will more algorithms soon.
 
@@ -32,7 +32,7 @@ if you don't have these models no need to worry you can simply install it by :: 
 
 
 ```bash
-  pip install -i https://test.pypi.org/simple/ mlhybridx==2.7.0 # version can be vary
+  pip install -i https://test.pypi.org/simple/ mlhybridx # versions can be vary
 ```
 Here we go !. Now you can use it in your systems.
 
@@ -44,7 +44,7 @@ from hybrid import EasyRegressor
 
 """
 If you have no idea about what can you do with dataset
-and how can you apply train, models etc for that you 
+and how can you apply train_test_split, fitting in models etc for that you 
 can pass default parameter inside EasyRegressor on 
 running that you will get the whole idea about any model.
 """
@@ -318,10 +318,13 @@ This project is licensed under the MIT License - see the <u>[LISCENCE</u>](Lisce
 
 Documentation : [
 MLHybridX · TestPyPI
-](https://test.pypi.org/project/MLHybridX/1.5.0/)
+](https://test.pypi.org/project/mlhybridx/)
 
 Github Repo: [MLHybridX](https://github.com/sudheer0071/MLHybridX)
 
+### Now terminal version is also available !! 
+#### check it out
+Github Repo: [mlhybridx-terminal-version](https://github.com/sudheer0071/mlhybridx-terminal-version/tree/main)
 
 ## Contributor
 ![](https://skillicons.dev/icons?i=github)
