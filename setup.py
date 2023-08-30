@@ -3,7 +3,7 @@ from setuptools import setup, find_packages
 with open('README.md', 'r',encoding='utf-8') as f:
     LONG_DESCRIPTION = f.read()
 
-VERSION = '1.0.0'
+VERSION = '1.1.0'
 DESCRIPTION = 'ML module'
 
 setup(
@@ -23,6 +23,7 @@ setup(
     ]
 )
 
-# ///////////////// TOKEN /////////////////////////////
+
+# ///////////////// TOKEN for test.pypi /////////////////////////////
 
 # "pypi-AgENdGVzdC5weXBpLm9yZwIkMDA3OWYzNDctNTVhNS00MWFjLTg4MjAtMjMyZjYyOGQ1ZTkzAAIRWzEsWyJtbGh5YnJpZHgiXV0AAixbMixbIjNjMmIxNWFlLWRhZmYtNGM3Ny05YTMyLWFhNDc2N2QxMWVmNiJdXQAABiAgaTP3DlblEPDgpKLErsaeCtxB5ZN1RCikKSjZ3VO-Iw"
