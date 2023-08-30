@@ -1,6 +1,6 @@
 Metadata-Version: 2.1
 Name: mlhybridx
-Version: 3.0.0
+Version: 1.0.0
 Summary: ML module
 Author: Deepak and Sudheer
 Keywords: train,split,df,predict
@@ -32,7 +32,7 @@ if you don't have these models no need to worry you can simply install it by :: 
 
 
 ```bash
-  pip install -i https://test.pypi.org/simple/ mlhybridx # versions can be vary
+  pip install mlhybridx 
 ```
 Here we go !. Now you can use it in your systems.
 

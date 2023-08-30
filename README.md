@@ -21,7 +21,7 @@ if you don't have these models no need to worry you can simply install it by :: 
 
 
 ```bash
-  pip install -i https://test.pypi.org/simple/ mlhybridx # versions can be vary
+  pip install mlhybridx 
 ```
 Here we go !. Now you can use it in your systems.
 

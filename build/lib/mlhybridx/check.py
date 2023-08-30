@@ -56,7 +56,7 @@ class EasyRegressor:
         return None
           
     def default(self):
-        bydefault()
+        By_default()
         return ""
 
     def model_ols(self):
