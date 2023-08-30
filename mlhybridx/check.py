@@ -1,7 +1,7 @@
 
 import sys
 import pandas as pd 
-from .hub import check_file,ols,multiple,GDR,SE,split_data,train_data,predict_gdr,predict_olr,perdict_multiple, bydefault
+from .hub import check_file,ols,multiple,GDR,SE,split_data,train_data,predict_gdr,predict_olr,perdict_multiple, By_default
 import time
 
 class EasyRegressor:
@@ -56,7 +56,7 @@ class EasyRegressor:
         return None
           
     def default(self):
-        bydefault()
+        By_default()
         return ""
 
     def model_ols(self):

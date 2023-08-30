@@ -3,7 +3,7 @@ from setuptools import setup, find_packages
 with open('README.md', 'r',encoding='utf-8') as f:
     LONG_DESCRIPTION = f.read()
 
-VERSION = '2.9.0'
+VERSION = '3.0.0'
 DESCRIPTION = 'ML module'
 
 setup(
