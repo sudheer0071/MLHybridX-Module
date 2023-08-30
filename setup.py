@@ -28,11 +28,13 @@ setup(
 
 # ///////////////// TOKEN for pypi /////////////////////////////
 
+# username = __token__
 # "pypi-AgEIcHlwaS5vcmcCJDc3ZTQ4ZTdkLTJkYTUtNDk0Mi1hYjAzLTAwNDkzZmZkYmY3NAACKlszLCI1MTUyZWU2Ny04MGMzLTQwMzItOWI5Ny1mOWI5ZDFmZmUwZGUiXQAABiD4gvLAQ3JGXbnOjyuzM5gZNoyd0WdQ2KYoe3bP7EAJnQ"
 
 
 
 # ///////////////// TOKEN for test.pypi /////////////////////////////
 
+# username = __token__
 # "pypi-AgENdGVzdC5weXBpLm9yZwIkMDA3OWYzNDctNTVhNS00MWFjLTg4MjAtMjMyZjYyOGQ1ZTkzAAIRWzEsWyJtbGh5YnJpZHgiXV0AAixbMixbIjNjMmIxNWFlLWRhZmYtNGM3Ny05YTMyLWFhNDc2N2QxMWVmNiJdXQAABiAgaTP3DlblEPDgpKLErsaeCtxB5ZN1RCikKSjZ3VO-Iw"
 
