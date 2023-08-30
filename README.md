@@ -309,7 +309,7 @@ Documentation : [
 MLHybridX · PyPi
 ](https://pypi.org/project/mlhybridx/)
 
-Github Repo: [MLHybridX](https://github.com/sudheer0071/MLHybridX)
+Github Repo: [MLHybridX-Module](https://github.com/sudheer0071/MLHybridX)
 
 ### Now terminal version is also available !! 
 #### check it out
