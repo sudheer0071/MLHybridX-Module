@@ -8,7 +8,6 @@ class EasyRegressor:
     def __init__ (self, file_name = 'default'):
 
         if file_name == 'default':
-            print("inside default")
             self.default()
             return None
             
