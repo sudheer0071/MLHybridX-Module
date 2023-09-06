@@ -29,13 +29,13 @@ def By_default():
 
         print("\n\n\n\n\n\n\n\n//////////////////////////////// ●▬▬▬▬◤ split data ◢▬▬▬▬● //////////////////////////////////////\n\n")
         x,y = split_data(data, target)
-        print(f"X: {x}\n\n\n y: {y}")
+        print(f"//////////////// ●▬▬▬▬◤ Input data (X) ◢▬▬▬▬● //////////////////\n {x}\n\n////////////// ●▬▬▬▬◤ Output data (Y) ◢▬▬▬▬● ////////////////\n {y}\n\n")
 
         print("\n\n\n\n\n\n\n\n\n//////////////////////////////////// ●▬▬▬▬◤ trained data ◢▬▬▬▬● ///////////////////////////////\n\n")
         x,  y = split_data(data, target)
         size = 0.2
         x_train, x_test, y_train, y_test = train_data( x,  y, size)
-        print(f"X_train: {x_train}\n\n\n y_train: {y_train}\n\n\nX_test: {x_test}\n\n\n y_test: {y_test}")
+        print(f" //////////////////////////////// ●▬▬▬▬◤ x_train ◢▬▬▬▬● //////////////////////////////\n\n{x_train}\n\nshape of x_train = {x_train.shape}\n\n\n///////////////////////////////// ●▬▬▬▬◤ y_train ◢▬▬▬▬● /////////////////////////////\n\n{y_train}\n\nshape of y_train = {y_train.shape}\n\n\n ///////////////////////////////// ●▬▬▬▬◤ x_test ◢▬▬▬▬● //////////////////////////////\n\n{x_test}\n\nshape of x_test = {x_test.shape}\n\n\n ///////////////////////////////// ●▬▬▬▬◤ y_test ◢▬▬▬▬● //////////////////////////////\n\n{y_test}\n\nshape of y_test = {y_test.shape}")
 
         print("\n\n\n\n\n///////////////////////////////////////// ●▬▬▬▬◤ fitting into Liner Regression Models ◢▬▬▬▬● ////////////////////////////////////////")
         
