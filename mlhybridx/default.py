@@ -55,7 +55,7 @@ def By_default():
         print(f" Predicted value = {pred}")
 
 
-        print("\n\n\n///////////////////////////////////// ●▬▬▬▬◤ By Gradient Descent Regression ◢▬▬▬▬● //////////////////////////////////////\n")
+        print("\n\n\n//////////////////////////////// ●▬▬▬▬◤ By Gradient Descent Regression ◢▬▬▬▬● //////////////////////////////////////\n")
         print("\n\n\n For lr = 0.001 and epochs = 50\n\n")
         x_train,  x_test,  y_train,  y_test = train_data( x,  y , size)
         intercept_, coef_= GDR(x_train, y_train, lr=0.001, epochs=50)
