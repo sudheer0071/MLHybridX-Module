@@ -32,8 +32,8 @@ class EasyRegressor:
               self.data = pd.DataFrame(read_data)
               return self.data
         else:
-            print('file not found') 
-            sys.exit("File not found")
+            print('File not found!!!') 
+            sys.exit("File not found!!!")
         # print(df)
          
     def split(self, target=""):
