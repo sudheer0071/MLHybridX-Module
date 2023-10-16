@@ -59,7 +59,7 @@ def By_default():
         print("\n\n\n For lr = 0.001 and epochs = 50\n\n")
         x_train,  x_test,  y_train,  y_test = train_data( x,  y , size)
         intercept_, coef_= GDR(x_train, y_train, lr=0.001, epochs=50)
-        print(f"intercept = {intercept_}\ncoefficient = {coef_}")
+        print(f"Intercept = {intercept_}\ncoefficient = {coef_}")
         pred = predict_gdr(x_test,intercept_,coef_)
         
         print(f" Predicted value = {pred}")
