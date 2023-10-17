@@ -1,7 +1,7 @@
 
 import sys
 import pandas as pd 
-from .hub import check_file,ols,multiple,GDR,SE,split_data,train_data,predict_gdr,predict_olr,perdict_multiple, By_default
+from .hub import check_file,ols,multiple,GDR,SE,split_data,train_data,predict_gdr,predict_olr,perdict_multiple, By_default, visuals
 import time
 
 class EasyRegressor:
@@ -89,7 +89,7 @@ class EasyRegressor:
     def predict(self, model, val=None):  
       self.df()
       x, y  = split_data(self.data, self.target)
-      x_train, x_test, y_train, y_test = train_data(x, y, self.test_size)
+      x_train, x_test, y_train, self.y_test = train_data(x, y, self.test_size)
       m,b =  ols(x_train, y_train)   
       try:
         if model == 'ols':
@@ -98,8 +98,8 @@ class EasyRegressor:
                  pred = predict_olr(float(val),m,b)
                  output = f"Predicted Values = {pred}"
                  return self.typer(output)
-            pred = predict_olr(x_test, m, b)
-            output = f"Predicted values = {pred}"
+            self.pred = predict_olr(x_test, m, b)
+            output = f"Predicted values = {self.pred}"
             return self.typer(output)
         
         if model == 'mlr':
@@ -108,8 +108,8 @@ class EasyRegressor:
                  pred = perdict_multiple(float(val),m,b)
                  output = f"Predicted Values = {pred}"
                  return self.typer(output)
-            pred = predict_olr(x_test, m, b)
-            output = f"Predicted values = {pred}"
+            self.pred = predict_olr(x_test, m, b)
+            output = f"Predicted values = {self.pred}"
             return self.typer(output)
 
         if model == 'gdr':
@@ -118,8 +118,8 @@ class EasyRegressor:
                  pred = predict_gdr(x_test, m, b)
                  output = f"Predicted values = {pred}"
                  return self.typer(output)
-            pred = predict_gdr(x_test, m, b)
-            output = f"Predicted values = {pred}"
+            self.pred = predict_gdr(x_test, m, b)
+            output = f"Predicted values = {self.pred}"
             return self.typer(output)
       except ValueError:
           print("Inalid params")  
@@ -144,3 +144,7 @@ class EasyRegressor:
             m,b = GDR(x_train,y_train,lr=0.01,epochs= 50) 
             y_pred = predict_gdr(x_test,m,b)
             return SE(y_test, y_pred, score) 
+
+
+def plot(self, y_pred, y_actual, plot_type:str):
+    return visuals(y_pred, y_actual, plot_type)

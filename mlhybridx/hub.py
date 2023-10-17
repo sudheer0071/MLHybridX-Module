@@ -5,3 +5,4 @@ from .split import split_data
 from .predict import predict_olr, perdict_multiple, predict_gdr 
 from .train import train_data 
 from .default import By_default
+from .Visualization import visuals
