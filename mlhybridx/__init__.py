@@ -1,1 +1,1 @@
-from .check import EasyRegressor
+from .EasyReg import EasyRegressor

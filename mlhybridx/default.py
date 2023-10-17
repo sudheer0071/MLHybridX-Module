@@ -5,6 +5,7 @@ from .scores import SE
 from .split import split_data
 from .predict import predict_olr, perdict_multiple, predict_gdr
 from .train import train_data
+from .Visualization import visuals
 
 def datasets():
         flight = sns.load_dataset('flights').replace({'Jan': 1, 'Feb':2,'Mar':3,'Apr':4,'May':5,'Jun':6,'Jul':7,'Aug':8,'Sep':9,'Oct':10,'Nov':11,'Dec':12}) 
@@ -46,6 +47,8 @@ def By_default():
         print(f"m = {m}\nb = {b} ")
         pred = predict_olr(x_test,m,b)
         print(f" Predicted Value = {pred}")
+
+        visuals(pred, y_test,'plot')
         
         print("\n\n\n//////////////////////////////////////////// ●▬▬▬▬◤ By Multiple Regression ◢▬▬▬▬● ///////////////////////////////////////\n")
         x_train,  x_test,  y_train,  y_test = train_data( x,  y , size)
@@ -64,6 +67,8 @@ def By_default():
         
         print(f" Predicted value = {pred}")
         
+
+
 
 
 
